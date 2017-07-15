@@ -11,6 +11,7 @@
 	 - 2) sudo /usr/local/mysql/support-files/mysql.server stop
 	 - or:
 	 - 3) sudo /Applications/XAMPP/xamppfiles/bin/mysql.server start
+	 - if error #2002: https://stackoverflow.com/a/4847526/4915059
 	 - then start again from app
 - open localhost:80/dashboard - if you have apache on another port put it here
 
