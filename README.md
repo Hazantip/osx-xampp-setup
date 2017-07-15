@@ -9,6 +9,9 @@
 	 - 1) sudo launchctl unload -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
 	 - or:
 	 - 2) sudo /usr/local/mysql/support-files/mysql.server stop
+	 - or:
+	 - 3) sudo /Applications/XAMPP/xamppfiles/bin/mysql.server start
+	 - then start again from app
 - open localhost:80/dashboard - if you have apache on another port put it here
 
 
@@ -25,6 +28,7 @@
 	sudo vi /etc/hosts
 
 ## PhpMyAdmin permission denied(13):
+	Applications/XAMPP/ - CMD + I - add rights to user which you typed in httpd.conf or chmod -R 0775 XAMPP/ from the Applications directory
 	Applications/XAMPP/xamppfiles/temp - CMD + I - add rights to user which you typed in httpd.conf
 
 # Images
