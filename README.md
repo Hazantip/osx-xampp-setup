@@ -5,6 +5,10 @@
 	- if can't run apache:
 	 - 1) sudo apachectl stop 
 	 - 2) change ports from 80 to 81
+ 	- if can't run mysql:
+	 - 1) sudo launchctl load -F /Library/LaunchDaemons/com.oracle.oss.mysql.mysqld.plist
+	 - 1.1) or:
+	 - 2) sudo /usr/local/mysql/support-files/mysql.server stop
 - open localhost:80/dashboard - if you have apache on another port put it here
 
 
